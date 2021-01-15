@@ -11,7 +11,7 @@ test("form header renders", () => {
     const header = screen.queryByText(/checkout form/i)
     expect(header).toBeInTheDocument();
 });
-
+ 
 test("form shows success message on submit with form details", () => {
     render(<CheckoutForm />);
   
